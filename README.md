@@ -78,7 +78,7 @@ To contribute:
    ```bash
    git push origin feature/YourFeature
    ```
-5. Open a pull request.
+5. Open a pull request to the `master` branch.
 
 ---
 
