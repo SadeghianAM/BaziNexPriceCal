@@ -93,4 +93,4 @@ For any questions or inquiries, feel free to reach out:
 
 This project is licensed under a custom **Non-Commercial License**.  
 You are free to use, modify, and distribute this project for non-commercial purposes only.  
-For details, see the [LICENSE](./LICENSE) file.
+For details, see the [LICENSE](https://github.com/SadeghianAM/BaziNexPriceCal?tab=License-1-ov-file) file.
