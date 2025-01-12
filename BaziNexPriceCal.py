@@ -36,9 +36,7 @@ class PriceCalculator:
         self.root.geometry("425x600")  # افزایش ارتفاع پنجره برای جا دادن فیلد جدید
         self.root.resizable(False, False)
         try:
-            self.root.iconbitmap(
-                r"C:\Users\abolf\Desktop\PriceCalculator\ico\Untitled-2.ico"
-            )
+            self.root.iconbitmap(r".\icon\icon.ico")
         except:
             pass  # در صورتی که آیکون موجود نباشد از خطا جلوگیری می‌کند
         self.style = ttk.Style()
