@@ -43,7 +43,7 @@ Make sure you have the following installed on your system:
 
 3. Run the program:
    ```bash
-   python main.py
+   python BaziNexPriceCal.py
    ```
 
 That's it! The application window will open, and you can start calculating prices.
