@@ -196,7 +196,7 @@ class PriceCalculator:
         if entry:
             entry.delete(0, tk.END)
             if field_key in self.DECIMAL_FIELDS:
-                formatted_value = f"{value:,.6f}"
+                formatted_value = f"{value:,.8f}"
             else:
                 if isinstance(value, float):
                     if value.is_integer():
@@ -213,7 +213,7 @@ class PriceCalculator:
         if value:
             try:
                 if any(widget == self.fields[field] for field in self.DECIMAL_FIELDS):
-                    formatted_value = f"{float(value):,.6f}"
+                    formatted_value = f"{float(value):,.8f}"
                 else:
                     number = float(value)
                     if number.is_integer():
